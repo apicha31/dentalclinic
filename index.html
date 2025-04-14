@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>คลินิกทันตกรรมสุขภาพดี</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css">
+  
+</head>
+<body>
+
+  <!-- เมนูหลัก -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+      <a class="navbar-brand text-primary fw-bold" href="#">คลินิกทันตกรรม</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#">หน้าแรก</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">เกี่ยวกับเรา</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">บริการ</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">ทีมแพทย์</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">บทความสุขภาพ</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">จองคิว</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">ติดต่อเรา</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">เข้าสู่ระบบ / สมัครสมาชิก</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- แบนเนอร์ -->
+  <section class="banner">
+    <div class="container">
+      <h1>ยินดีต้อนรับสู่คลินิกทันตกรรมสุขภาพดี</h1>
+      <p>ดูแลรอยยิ้มของคุณด้วยทีมทันตแพทย์ผู้เชี่ยวชาญ และบริการที่คุณวางใจได้</p>
+    </div>
+  </section>
+
+  <!-- ภาพสไลด์บริการ -->
+  <div id="serviceCarousel" class="carousel slide mt-4" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://plus.unsplash.com/premium_photo-1682097274659-192f3d7c991a?q=80&w=1600&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="บริการทันตกรรม">
+      </div>
+      <div class="carousel-item">
+        <img src="https://images.unsplash.com/photo-1600170311833-c2cf5280ce49?q=80&w=1600&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="บริการทันตกรรม">
+      </div>
+      <div class="carousel-item">
+        <img src="https://images.unsplash.com/photo-1677026010083-78ec7f1b84ed?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="บริการทันตกรรม">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#serviceCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#serviceCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+
+  <!-- ปุ่มนัดหมาย -->
+<section class="text-center my-5">
+    <h2 class="text-primary mb-3">ดูแลรอยยิ้มของคุณวันนี้</h2>
+    <p class="mb-4">จองคิวเพื่อตรวจเช็กสุขภาพช่องปากกับทันตแพทย์ผู้เชี่ยวชาญของเรา</p>
+    <a href="#" class="btn btn-primary btn-lg px-4">จองคิวตอนนี้</a>
+  </section>
+  
+  <!-- การ์ดแสดงบริการ -->
+  <section class="container my-5">
+    <h3 class="text-center mb-4 text-primary">บริการของเรา</h3>
+    <div class="row text-center">
+      <div class="col-md-4 mb-4">
+        <div class="card shadow-sm h-100">
+            <img src="https://images.unsplash.com/photo-1681939283343-513b83b13c78?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="img-fluid card-img-top" alt="ตรวจสุขภาพช่องปาก">
+          <div class="card-body">
+            <h5 class="card-title">ตรวจสุขภาพช่องปาก</h5>
+            <p class="card-text">บริการตรวจเช็กฟัน เหงือก และช่องปาก พร้อมให้คำแนะนำโดยทันตแพทย์</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card shadow-sm h-100">
+            <img src="https://images.unsplash.com/photo-1666158661708-f126161909a3?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="img-fluid card-img-top" alt="ฟอกสีฟัน">
+            <div class="card-body">
+            <h5 class="card-title">จัดฟัน</h5>
+            <p class="card-text">บริการจัดฟันทุกประเภท พร้อมเทคโนโลยีทันสมัยเพื่อรอยยิ้มที่มั่นใจ</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card shadow-sm h-100">
+            <img src="https://plus.unsplash.com/premium_photo-1670884442192-7b58d513cd55?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="img-fluid card-img-top" >
+          <div class="card-body">
+            <h5 class="card-title">ฟอกสีฟัน</h5>
+            <p class="card-text">เสริมความมั่นใจด้วยฟันขาวสะอาด ด้วยวิธีฟอกสีฟันที่ปลอดภัย</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  
+  <!-- คำรับรองจากลูกค้า -->
+<section class="bg-light py-5">
+    <div class="container">
+      <h3 class="text-center text-primary mb-4">คำรับรองจากลูกค้า</h3>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="p-4 border rounded bg-white shadow-sm h-100">
+            <p>“คุณหมอใจดีมาก ให้คำแนะนำละเอียด ประทับใจในการบริการค่ะ”</p>
+            <strong>– คุณแอน, พนักงานออฟฟิศ</strong>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="p-4 border rounded bg-white shadow-sm h-100">
+            <p>“ฟันสะอาดขึ้นเยอะเลยครับหลังฟอกสีฟัน ดูแลดี ใส่ใจทุกขั้นตอน”</p>
+            <strong>– คุณต้น, นักธุรกิจ</strong>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="p-4 border rounded bg-white shadow-sm h-100">
+            <p>“ลูกสาวไม่กลัวหมอฟันอีกต่อไปแล้ว บริการเยี่ยมมากค่ะ”</p>
+            <strong>– คุณแม่เจี๊ยบ</strong>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- รีวิว (Carousel) -->
+  <section class="py-5">
+    <div class="container">
+      <h3 class="text-center text-primary mb-4">รีวิวจากผู้ใช้บริการ</h3>
+      <div id="reviewCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner text-center">
+          <div class="carousel-item active">
+            <blockquote class="blockquote">
+              <p class="mb-4">“บริการยอดเยี่ยม สถานที่สะอาด และทันตแพทย์ให้ข้อมูลชัดเจนมาก”</p>
+              <footer class="blockquote-footer">คุณนิดา จาก กรุงเทพฯ</footer>
+            </blockquote>
+          </div>
+          <div class="carousel-item">
+            <blockquote class="blockquote">
+              <p class="mb-4">“ระบบจองคิวออนไลน์สะดวกมาก ไม่ต้องรอนานเลยครับ”</p>
+              <footer class="blockquote-footer">คุณภพ จาก นนทบุรี</footer>
+            </blockquote>
+          </div>
+          <div class="carousel-item">
+            <blockquote class="blockquote">
+              <p class="mb-4">“ประทับใจตั้งแต่การต้อนรับจนจบการรักษา คลินิกดูแลดีมากค่ะ”</p>
+              <footer class="blockquote-footer">คุณโบว์ จาก สมุทรปราการ</footer>
+            </blockquote>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#reviewCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#reviewCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </div>
+  </section>
+  
+  <!-- ฟอร์มติดต่อ -->
+  <section class="bg-light py-5">
+    <div class="container">
+      <h3 class="text-center text-primary mb-4">ติดต่อเรา</h3>
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">ชื่อของคุณ</label>
+              <input type="text" class="form-control" id="name" placeholder="กรอกชื่อ-นามสกุล">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">อีเมล</label>
+              <input type="email" class="form-control" id="email" placeholder="example@mail.com">
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">ข้อความ</label>
+              <textarea class="form-control" id="message" rows="5" placeholder="คุณต้องการสอบถามเรื่องใด..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">ส่งข้อความ</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Footer -->
+  <footer class="bg-light text-center text-lg-start border-top">
+    <div class="container p-4">
+      <div class="row">
+        <div class="col-md-6 mb-3">
+          <h5 class="text-primary">คลินิกทันตกรรมสุขภาพดี</h5>
+          <p>เราพร้อมให้บริการด้วยหัวใจ ดูแลรอยยิ้มของคุณด้วยทีมทันตแพทย์มืออาชีพ</p>
+        </div>
+        <div class="col-md-3 mb-3">
+          <h6 class="text-primary">เมนูหลัก</h6>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-dark">หน้าแรก</a></li>
+            <li><a href="#" class="text-dark">บริการ</a></li>
+            <li><a href="#" class="text-dark">ทีมแพทย์</a></li>
+            <li><a href="#" class="text-dark">จองคิว</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 mb-3">
+          <h6 class="text-primary">ติดต่อเรา</h6>
+          <p class="text-dark mb-1">📍 123 ถนนสุขภาพ แขวงยิ้มสวย เขตฟันดี</p>
+          <p class="text-dark mb-1">📞 02-123-4567</p>
+          <p class="text-dark">📧 contact@smiledental.com</p>
+        </div>
+      </div>
+    </div>
+    <div class="text-center p-3 bg-primary text-white">
+      © 2025 Smile Dental Clinic. All rights reserved.
+    </div>
+  </footer>
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
