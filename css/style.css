@@ -127,4 +127,12 @@
     .hidden {
       display: none;
     }
+
+    .card {
+      border-radius: 1rem;
+    }
+    .section-title {
+      color: #007bff;
+      margin-bottom: 1.5rem;
+    }
     
