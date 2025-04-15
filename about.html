@@ -8,9 +8,6 @@
   <link rel="stylesheet" href="css/style.css">
 
   <style>
-    body {
-      background-color: #f8f9fa;
-    }
     .section-title {
       border-bottom: 2px solid #0d6efd;
       display: inline-block;
@@ -19,8 +16,27 @@
   </style>
 </head>
 <body>
-    <div id="header"></div>
-
+  <!-- เมนูหลัก -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+      <a class="navbar-brand text-primary fw-bold" href="#">คลินิกทันตกรรม</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#">หน้าแรก</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">เกี่ยวกับเรา</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">บริการ</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">ทีมแพทย์</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">บทความสุขภาพ</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">จองคิว</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">ติดต่อเรา</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">เข้าสู่ระบบ / สมัครสมาชิก</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
 
   <div class="container py-5">
@@ -63,10 +79,36 @@
     </div>
 
   </div>
-  <div id="footer"></div>
+  <!-- Footer -->
+  <footer class="bg-light text-center text-lg-start border-top">
+    <div class="container p-4">
+      <div class="row">
+        <div class="col-md-6 mb-3">
+          <h5 class="text-primary">คลินิกทันตกรรมสุขภาพดี  กว่าเดิม</h5>
+          <p>เราพร้อมให้บริการด้วยหัวใจ ดูแลรอยยิ้มของคุณด้วยทีมทันตแพทย์มืออาชีพ</p>
+        </div>
+        <div class="col-md-3 mb-3">
+          <h6 class="text-primary">เมนูหลัก</h6>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-dark">หน้าแรก</a></li>
+            <li><a href="#" class="text-dark">บริการ</a></li>
+            <li><a href="#" class="text-dark">ทีมแพทย์</a></li>
+            <li><a href="#" class="text-dark">จองคิว</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 mb-3">
+          <h6 class="text-primary">ติดต่อเรา</h6>
+          <p class="text-dark mb-1">📍 123 ถนนสุขภาพ แขวงยิ้มสวย เขตฟันดี</p>
+          <p class="text-dark mb-1">📞 02-123-4567</p>
+          <p class="text-dark">📧 contact@smiledental.com</p>
+        </div>
+      </div>
+    </div>
+    <div class="text-center p-3 bg-primary text-white">
+      © 2025 Aphicha Smile Dental Clinic. All rights reserved.
+    </div>
+  </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-  <!-- Import script -->
-  <script src="loadComponents.js"></script>
 </body>
 </html>
