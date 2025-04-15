@@ -3,10 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>ทีมแพทย์ - คลินิกบริการสุขภาพ</title>
+  <title>ติดต่อเรา - คลินิกบริการสุขภาพ</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
-
+ <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
@@ -33,56 +32,67 @@
   </nav>
 
 
-<div class="container py-5">
-  <h2 class="text-center text-primary mb-5">ทีมแพทย์ของเรา</h2>
-
-  <div class="row">
-    <!-- Doctor 1 -->
-    <div class="col-md-6 col-lg-4">
-      <div class="doctor-card text-center">
-        <img src="https://via.placeholder.com/120" alt="Dr. A" class="doctor-img mb-3">
-        <h5 class="text-primary">นพ. สมชาย ตัวอย่าง</h5>
-        <p class="text-muted">ผู้เชี่ยวชาญด้านทันตกรรมจัดฟัน<br>ประสบการณ์กว่า 15 ปี</p>
-        <h6 class="mt-3">ตารางเวลาทำงาน</h6>
-        <table class="schedule-table mx-auto">
-          <tr><td>จันทร์</td><td>09:00 - 17:00</td></tr>
-          <tr><td>พุธ</td><td>13:00 - 19:00</td></tr>
-          <tr><td>ศุกร์</td><td>09:00 - 17:00</td></tr>
-        </table>
+<!-- ส่วนติดต่อเรา -->
+<section class="contact-section">
+  <div class="container">
+    <h2 class="text-center mb-4">ติดต่อเรา</h2>
+    <div class="row">
+      <!-- ฟอร์มติดต่อ -->
+      <div class="col-md-6 mb-4">
+        <h5>ส่งข้อความหาเรา</h5>
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label">ชื่อของคุณ</label>
+            <input type="text" class="form-control" id="name" placeholder="กรอกชื่อของคุณ">
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">อีเมล</label>
+            <input type="email" class="form-control" id="email" placeholder="example@example.com">
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">ข้อความ</label>
+            <textarea class="form-control" id="message" rows="4" placeholder="พิมพ์ข้อความที่นี่..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">ส่งข้อความ</button>
+        </form>
       </div>
-    </div>
 
-    <!-- Doctor 2 -->
-    <div class="col-md-6 col-lg-4">
-      <div class="doctor-card text-center">
-        <img src="https://via.placeholder.com/120" alt="Dr. B" class="doctor-img mb-3">
-        <h5 class="text-primary">พญ. สมมติ นามสกุลตัวอย่าง</h5>
-        <p class="text-muted">ผู้เชี่ยวชาญด้านโรคทั่วไป<br>ประสบการณ์กว่า 10 ปี</p>
-        <h6 class="mt-3">ตารางเวลาทำงาน</h6>
-        <table class="schedule-table mx-auto">
-          <tr><td>อังคาร</td><td>10:00 - 18:00</td></tr>
-          <tr><td>พฤหัส</td><td>08:30 - 16:30</td></tr>
-          <tr><td>เสาร์</td><td>09:00 - 14:00</td></tr>
-        </table>
-      </div>
-    </div>
+      <!-- ข้อมูลติดต่อ + แผนที่ -->
+      <div class="col-md-6">
+        <h5>ข้อมูลการติดต่อ</h5>
+        <div class="contact-info mb-3">
+          <p><strong>ที่อยู่:</strong> 123 ถนนสุขภาพดี แขวงสุขใจ เขตปลอดโรค กรุงเทพฯ 10100</p>
+          <p><strong>เบอร์โทร:</strong> 02-123-4567</p>
+          <p><strong>อีเมล:</strong> info@clinichealthcare.com</p>
+        </div>
 
-    <!-- Doctor 3 -->
-    <div class="col-md-6 col-lg-4">
-      <div class="doctor-card text-center">
-        <img src="https://via.placeholder.com/120" alt="Dr. C" class="doctor-img mb-3">
-        <h5 class="text-primary">นพ. ธนพล สกุลตัวอย่าง</h5>
-        <p class="text-muted">ผู้เชี่ยวชาญด้านเวชศาสตร์ฟื้นฟู<br>ประสบการณ์กว่า 8 ปี</p>
-        <h6 class="mt-3">ตารางเวลาทำงาน</h6>
-        <table class="schedule-table mx-auto">
-          <tr><td>จันทร์</td><td>13:00 - 18:00</td></tr>
-          <tr><td>พุธ</td><td>09:00 - 16:00</td></tr>
-          <tr><td>ศุกร์</td><td>10:00 - 17:00</td></tr>
-        </table>
+        <!-- แผนที่ Google Map -->
+        <div class="mb-3">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!..." 
+            width="100%" 
+            height="250" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+
+        <!-- ปุ่มแชทด่วน -->
+        <div class="chat-buttons">
+          <a href="https://line.me/R/ti/p/@yourclinicline" target="_blank" class="btn btn-success">
+            แชทผ่าน LINE
+          </a>
+          <a href="https://m.me/yourclinicfb" target="_blank" class="btn btn-primary">
+            แชทผ่าน Messenger
+          </a>
+        </div>
       </div>
     </div>
   </div>
-</div>
+</section>
+
 
 <!-- Footer -->
 <footer class="bg-light text-center text-lg-start border-top">

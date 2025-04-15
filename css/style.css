@@ -135,4 +135,15 @@
       color: #007bff;
       margin-bottom: 1.5rem;
     }
+
+    .contact-section {
+      background-color: #f8f9fa;
+      padding: 50px 0;
+    }
+    .contact-info {
+      font-size: 1.1rem;
+    }
+    .chat-buttons a {
+      margin-right: 10px;
+    }
     
